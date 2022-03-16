@@ -6,8 +6,8 @@
 	"module": "dist/module.js",
 	"types": "dist/types.d.ts",
 	"scripts": {
-		"watch": "parcel watch",
-		"build": "parcel build"
+		"watch": "parcel watch --log-level verbose",
+		"build": "parcel build --log-level verbose"
 	},
 	"devDependencies": {
 		"@parcel/config-default": "^2",

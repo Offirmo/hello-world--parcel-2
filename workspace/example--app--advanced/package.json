@@ -9,8 +9,8 @@
 	"browserslist": "> 0.5%, last 2 versions, not dead",
 
 	"scripts": {
-		"start": "parcel",
-		"build": "parcel build"
+		"start": "parcel --log-level verbose",
+		"build": "parcel build --log-level verbose"
 	},
 
 	"dependencies": {
