@@ -1,6 +1,6 @@
 {
 	"name": "@offirmo-private/example--module--ts",
-	"version": "1.0.0",
+	"version": "0.0.1",
 	"source": "src/index.ts",
 	"main": "dist/main.js",
 	"module": "dist/module.js",

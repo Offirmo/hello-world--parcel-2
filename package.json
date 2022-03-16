@@ -14,7 +14,8 @@
 	},
 
 	"dependencies": {
-		"bolt": "^0.24"
+		"bolt": "^0.24",
+		"lodash": "^4"
 	},
 
 	"devDependencies": {
@@ -22,6 +23,7 @@
 		"@parcel/packager-ts": "^2",
 		"@parcel/transformer-typescript-tsc": "^2",
 		"@parcel/transformer-typescript-types": "^2",
+		"@types/lodash": "^4",
 		"parcel": "^2",
 		"typescript": "^4"
 	}

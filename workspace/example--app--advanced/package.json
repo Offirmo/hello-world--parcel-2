@@ -1,5 +1,5 @@
 {
-	"name": "@offirmo-private/example--app--basic",
+	"name": "@offirmo-private/example--app--advanced",
 	"version": "0.0.1",
 	"author": "Offirmo <offirmo.net@gmail.com> (https://www.offirmo.net/)",
 	"license": "Unlicense",
@@ -14,6 +14,7 @@
 	},
 
 	"dependencies": {
+		"@offirmo-private/example--module--ts": "^0"
 	},
 
 	"devDependencies": {
