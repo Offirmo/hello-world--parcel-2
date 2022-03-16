@@ -1,3 +1,4 @@
-export function add<T = number>(a: Readonly<T>, b: Readonly<T>): Readonly<T> {
-	return a + b;
+
+export function add(a: number, b: number): number {
+	return a + b
 }

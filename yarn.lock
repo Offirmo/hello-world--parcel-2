@@ -322,6 +322,13 @@
     "@parcel/utils" "2.3.2"
     posthtml "^0.16.4"
 
+"@parcel/packager-ts@^2":
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/@parcel/packager-ts/-/packager-ts-2.3.2.tgz#e2092e89bd7ee48b7b217ab9c4374c7ceef17e13"
+  integrity sha512-8Yb0N8Rnvj4Ag+jd2nTJPSrUKZxFEqju77cTRkkg4jFSNSFw8GTRsappNAyCID0W1tjcTyxMTfxetPmCC1Xm9g==
+  dependencies:
+    "@parcel/plugin" "2.3.2"
+
 "@parcel/plugin@2.3.2":
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/@parcel/plugin/-/plugin-2.3.2.tgz#7701c40567d2eddd5d5b2b6298949cd03a2a22fa"
@@ -537,6 +544,17 @@
     "@parcel/plugin" "2.3.2"
     "@parcel/source-map" "^2.0.0"
     "@parcel/ts-utils" "2.3.2"
+
+"@parcel/transformer-typescript-types@^2":
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/@parcel/transformer-typescript-types/-/transformer-typescript-types-2.3.2.tgz#569d06d876594766d48c7bca79464f49e7fe5002"
+  integrity sha512-iYPah0UK2o10bsk5Ukr7meyI5vA27mnBWXHp8bOG5a2pJ/UzS1B7IKbgHBOzLmvpD7lSDfPLGpmbSWbIhsI5+g==
+  dependencies:
+    "@parcel/diagnostic" "2.3.2"
+    "@parcel/plugin" "2.3.2"
+    "@parcel/source-map" "^2.0.0"
+    "@parcel/ts-utils" "2.3.2"
+    nullthrows "^1.1.1"
 
 "@parcel/ts-utils@2.3.2":
   version "2.3.2"
@@ -2743,6 +2761,11 @@ typeable-promisify@^2.0.1:
   integrity sha1-G67oKrrxMoAZjrEemFiciBpr2A0=
   dependencies:
     any-promise "^1.3.0"
+
+typescript@^4:
+  version "4.6.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.6.2.tgz#fe12d2727b708f4eef40f51598b3398baa9611d4"
+  integrity sha512-HM/hFigTBHZhLXshn9sN37H085+hQGeJHJ/X7LpBWLID/fbc2acUMfU+lGD98X81sKP+pFa9f0DZmCwB9GnbAg==
 
 typewise-core@^1.2, typewise-core@^1.2.0:
   version "1.2.0"
