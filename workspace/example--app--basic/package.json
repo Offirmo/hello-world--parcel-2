@@ -1,0 +1,16 @@
+{
+	"name": "@offirmo-private/example--app--basic",
+	"version": "0.0.1",
+	"author": "Offirmo <offirmo.net@gmail.com> (https://www.offirmo.net/)",
+	"license": "Unlicense",
+	"private": true,
+
+	"dependencies": {
+	},
+
+	"devDependencies": {
+		"@parcel/config-default": "^2",
+		"@parcel/transformer-typescript-tsc": "^2",
+		"parcel": "^2"
+	}
+}
