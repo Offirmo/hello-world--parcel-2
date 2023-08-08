@@ -15,6 +15,7 @@
 
 	"dependencies": {
 		"bolt": "^0.24",
+		"howler": "^2",
 		"lodash": "^4"
 	},
 
@@ -25,6 +26,6 @@
 		"@parcel/transformer-typescript-types": "^2",
 		"@types/lodash": "^4",
 		"parcel": "^2",
-		"typescript": "^4"
+		"typescript": "^5"
 	}
 }
