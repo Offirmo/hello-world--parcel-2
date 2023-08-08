@@ -14,7 +14,8 @@
 	},
 
 	"dependencies": {
-		"@offirmo-private/example--module--ts": "^0",
+		"@offirmo-private/assets--audio": "*",
+		"@offirmo-private/example--module--ts": "*",
 		"howler": "^2"
 	},
 

@@ -4,12 +4,24 @@ import { add } from '@offirmo-private/example--module--ts'
 console.log('Hello world!')
 console.log('2 + 2 =', add(2, 2))
 
+import get from '@offirmo-private/assets--audio/SpellBook--TurnPage--01'
+
+const sound = get()
+sound.once('unlock', function() {
+		console.log('unlocked')
+		sound.play()
+	});
+
+globalThis.spellbook = function() {
+	const sound = get()
+	sound.play()
+}
+/*
 import { Howl, Howler } from 'howler'
-const src = new URL('./assets/audio/licensed/audio_alchemist/SpellBook_TurnPage_01.mp3', import.meta.url)
-console.log(src)
+const url = new URL('./assets/audio/licensed/audio_alchemist/SpellBook_TurnPage_01.mp3', import.meta.url)
+console.log(url)
 const sound = new Howl({
-	src: [ src ],
-	format: [ 'mp3' ],
+	src: url.toString(),
 	onload(...rest) { console.log(`onload`, rest) },
 	onloaderror(...rest) { console.log(`onloaderror`, rest) },
 	onplayerror(...rest) { console.log(`onplayerror`, rest) },
@@ -19,13 +31,5 @@ const sound = new Howl({
 ;["mp3", "mpeg", "opus", "ogg", "oga", "wav", "aac", "caf", "m4a", "m4b", "mp4", "weba", "webm", "dolby", "flac"].forEach(ext => {
 	console.log(`${ext} support = ${Howler.codecs(ext)}`)
 })
-/*
-import get from './assets/audio/spellbook--turn_page.ts'
-get().then(sound => {
-	console.log('loaded')
-	sound.once('unlock', function() {
-		console.log('unlocked')
-		sound.play();
-	});
-})
 */
+

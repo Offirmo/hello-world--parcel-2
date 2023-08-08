@@ -27,5 +27,9 @@
 		"@types/lodash": "^4",
 		"parcel": "^2",
 		"typescript": "^5"
+	},
+
+	"@parcel/resolver-default": {
+		"packageExports": true
 	}
 }
