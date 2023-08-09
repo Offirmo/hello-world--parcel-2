@@ -9,7 +9,7 @@ import get from '@offirmo-private/assets--audio/SpellBook--TurnPage--01'
 const sound = get()
 sound.once('unlock', function() {
 		console.log('unlocked')
-		sound.play()
+		//sound.play()
 	});
 
 globalThis.spellbook = function() {

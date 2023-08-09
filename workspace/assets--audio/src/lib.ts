@@ -7,13 +7,14 @@ import { Howl, Howler } from 'howler'
 /////////////////////////////////////////////////
 
 function createꓽsound(url: URL) {
-	console.log(url)
+	const src = url.toString()
+	//console.log(url)
 	const sound = new Howl({
-		src: url.toString(),
-		onload(...rest) { console.log(`onload`, rest) },
-		onloaderror(...rest) { console.log(`onloaderror`, rest) },
-		onplayerror(...rest) { console.log(`onplayerror`, rest) },
-		onunlock(...rest) { console.log(`onunlock`, rest); sound.play() },
+		src,
+		//onload(...rest) { console.log(`onload(${src})`, rest) },
+		onloaderror(...rest) { console.log(`onloaderror(${src})`, rest) },
+		onplayerror(...rest) { console.log(`onplayerror(${src})`, rest) },
+		//onunlock(...rest) { console.log(`onunlock(${src})`, rest); sound.play() },
 	})
 
 	return sound
